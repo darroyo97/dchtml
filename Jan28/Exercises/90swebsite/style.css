@@ -1,0 +1,46 @@
+body {
+    background-image: url(images/game_over.jpeg);
+    background-repeat: repeat;
+
+    background-size: 150px 150px;
+}
+.main_container {
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    border: 10px double #0B5351;
+    padding: 10px;
+    background-color: #FFF1BE;
+    text-align: center;
+    overflow: auto;
+    color: #4C243B;
+    
+}
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: #FFF1BE;
+    text-shadow: 5px 3px black;
+    letter-spacing: 5px;
+    font-size: 50px;
+    
+}
+li {
+    list-style-type: none;
+}
+.right {
+    float: right;
+    width: 200px;
+    height:300px;
+    padding: 20px;
+    
+}
+.left {
+    float: left;
+    width: 300px;
+    
+}
+
+p {
+    font-family: 'Inconsolata', monospace;
+}
