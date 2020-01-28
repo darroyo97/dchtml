@@ -25,9 +25,7 @@ h1 {
     font-size: 50px;
     
 }
-li {
-    list-style-type: none;
-}
+
 .right {
     float: right;
     width: 200px;
@@ -43,4 +41,27 @@ li {
 
 p {
     font-family: 'Inconsolata', monospace;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: transparent;
+}  
+
+li a {
+    display: block;
+    color: #E87EA1;
+    text-shadow: 5px 3px black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+}
+
+li a:hover {
+    color: white;
 }
