@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/game_over.jpeg);
+    background-image: url(images/90sgif.gif);
     background-repeat: repeat;
 
     background-size: 150px 150px;
@@ -28,14 +28,14 @@ h1 {
 
 .right {
     float: right;
-    width: 428px;
+    width: 350px;
     height:480px;
     padding: 20px;
     
 }
 .left {
     float: left;
-    width: 500px;
+    width: 400px;
     
 }
 
