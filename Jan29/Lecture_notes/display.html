@@ -15,6 +15,9 @@
             margin: 20px;
             width: 200px;
             height: 200px;
+            /* display: inline-block;
+            text-align: center; */
+
         }
 
         span {
@@ -24,7 +27,13 @@
             margin: 20px;
             width: 200px;
             height: 200px;
-            /* does not apply height or weight to inline elements, also wont work for a tag */
+            /* does not apply height or width to inline elements, also wont work for a tag */
+            /* display: block; */
+            /* this allows it to act as a block and now it applies the width and height */
+            display: inline-block;
+            text-align: center;
+            /* will not align to center of page but center of box  */
+
         }
 
         a {
@@ -33,12 +42,53 @@
             padding: 10px;
             margin: 20px;
         }
+
+        h1,
+        h2 {
+            background-color: pink;
+            text-align: center;
+
+            /* will center to page */
+
+        }
+
+        img {
+            /* display: inline;
+            /* side by side */
+            /* display:block;
+            not side by side */
+            display: block;
+            margin: auto;
+        }
+
+        /* block level elements cannot go side by side :(
+        block lvl elements common ...
+            div
+            h1-h5
+            ol,ul,li
+            p
+            form
+            blockquote
+            hr  
+        
+        common inline elements: ...
+            img
+            a
+            span
+            em
+            strong
+            input, button, label, select, textarea
+        */
     </style>
 
 </head>
 
 
 <body>
+    <h1>Header</h1>
+    <h2>header header</h2>
+    <img src="kitten.jpeg">
+    <img src="kitten.jpeg">
     <div>
         Hello I'm a div
     </div>
