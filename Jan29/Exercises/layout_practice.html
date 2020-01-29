@@ -10,41 +10,47 @@
     <style>
         body {
             margin: 0%;
+            background-color: #FFB7A3;
+            color: white;
         }
 
         header,
         footer {
-            background-color: pink;
+            background-color: #ED6F95;
             text-align: center;
-            padding: 20px;
+            padding: 35px;
 
         }
 
         .sidebar,
         .text-content {
             display: inline-block;
+            box-sizing: border-box;
             height: 400px;
+            text-align: center;
+            padding-top: 10px;
         }
 
         .sidebar {
-            background-color: aqua;
+            background-color: #EFA0C2;
             width: 30%;
+            /* float: left; */
 
         }
 
         .text-content {
-            background-color: rgb(91, 243, 91);
-            width: 60%;
+            background-color: #FFB7A3;
+            width: 65%;
         }
     </style>
 </head>
 
 <body>
     <header>This is the header</header>
-
-    <div class="sidebar"> This is sidebar</div>
-    <div class="text-content">This is your main content</div>
-
+    <div class="main-box">
+        <div class="sidebar"> This is sidebar</div>
+        <div class="text-content">This is your main content</div>
+    </div>
     <footer>This is the footer</footer>
 </body>
 
