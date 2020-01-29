@@ -13,7 +13,8 @@
         background: pink;
         padding: 30px;
         border: 3px dotted black;
-        margin: 20px;
+        margin: 0px 20px 5px 15px;
+        /* you can give all 4 side different value it goes clockwise: top, right bottom, left */
     }
 
     .hello {
@@ -24,9 +25,25 @@
         border: rgb(79, 209, 108) solid;
         border-radius: 20px;
     }
+
+    .box {
+        background-color: yellow;
+        padding: 50px;
+        border: 20px solid black;
+        margin: 100px;
+        height: 240px;
+        width: 240px;
+        overflow: scroll;
+        /* box-sizing: border-box; */
+
+        /* overflow: auto, scroll, hidden */
+    }
 </style>
 
 <body>
+    <div class="box">
+        <img src="kitten2.jpg">
+    </div>
     <div class="hello">
         Hola !
     </div>
