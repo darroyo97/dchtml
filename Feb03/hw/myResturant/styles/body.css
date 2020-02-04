@@ -11,6 +11,13 @@
     width:100%;
     position:absolute;
 }
-.imgSlide {
+/* .imgSlide {
     height: 420px;
+} */
+.img-fix {
+    max-width: 100%;
+    max-height: 100%;
+}
+p, h3 {
+    color: black;
 }
