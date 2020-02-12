@@ -11,8 +11,7 @@ body {
     border: 10px double #0B5351;
     padding: 10px;
     background-color: #FFF1BE;
-    text-align: center;
-    overflow: auto;
+    padding: 10px;
     color: #4C243B;
     
 }
